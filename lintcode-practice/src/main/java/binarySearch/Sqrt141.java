@@ -1,7 +1,5 @@
 package binarySearch;
 
-import static junit.framework.Assert.assertTrue;
-
 
 public class Sqrt141 {
 
@@ -44,6 +42,7 @@ public class Sqrt141 {
 		return (int) result;
 	}
 
+	
 	public static void main(String[] args) {
 		Sqrt141 test = new Sqrt141();
 		System.out.println(test.sqrt(3) == 1);
